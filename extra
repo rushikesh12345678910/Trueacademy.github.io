@@ -1,0 +1,106 @@
+.info{
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.info h1{
+  font-size: 40px;
+  text-align: center;
+}
+.info p{
+  color: gray;
+  font-size: 23px;
+}
+.teacher_student{
+  width: 100vw;
+  height:350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: green;
+}
+.teacher{
+  width: 530px;
+  height: 300px;
+  background-color: red;
+}
+.student{
+  width: 480px;
+  height: 300px;
+  background-color: yellow;
+}
+.teacher img{
+  width: 480px;
+  height: 300px;
+}
+.teacher img:hover{
+  transform: scale(0.9);
+  transition-duration: 0.4s; 
+  opacity:0.6; 
+}
+.student img{
+  width: 480px;
+  height: 300px
+}
+.student img:hover{
+  transform: scale(0.9);
+  transition-duration: 0.4s;
+  opacity:0.6; 
+}
+
+
+
+
+  <div class="info">
+    <h1><b>What is True Academy?<b></h1>
+    <!----<p>Easyclass is a platform that allows educators to create online classes whereby <br>they can store the course materials online; manage assignments, quizzes and <br> exams; monitor due dates; grade results and provide students with feedback <br>all in one place.</p>-->
+    <p>TrueAcademy is a Platform that features a teacher to teach <br>with the help of online classes.where they can teach via meeting,<br> manage assignment,take exams,quizzes in a better way</p>
+  </div>
+
+  <div class="teacher_student">
+    <div class="teacher">
+      <img src="images/banner9.png">
+    </div>
+    <div class="student">
+      <img src="images/banner8.jpg">
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 812px)
+{
+  .navbar
+  {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .logo{
+    width: 80px;
+    height: 67px;
+    background-image: url(../images/logo.png);
+    background-size: 70px;
+    background-repeat: no-repeat;
+    top: 0;
+    margin-top: 14px;
+    bottom: 0;
+  }
+  .inner-navbar a{
+    font-size: 15px;
+    color: white;
+    text-decoration-color: white;
+  }
+  
+}
